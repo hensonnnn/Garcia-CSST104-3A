@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #fff;
+    background-color: #DBDBDB;
     color: #000; /* Black text */
     margin: 0;
     padding: 0;
 }
 
 .container {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     height: 100vh;
