@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
     margin: 0;
     padding: 0;
 }
@@ -8,14 +9,14 @@ body {
 .subject {
     max-width: 600px;
     margin: 50px auto;
-    background-color: #fff;
+    background-color: #000; /* Black container background */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .subject h1 {
-    color: #333;
+    color: #fff; /* White heading text */
     text-align: center;
 }
 
@@ -26,7 +27,8 @@ body {
 
 .activities li {
     padding: 10px 0;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #666; /* Dark gray border */
+    color: #fff; /* White text */
 }
 
 .activities li:last-child {
@@ -34,6 +36,6 @@ body {
 }
 
 .activities li:hover {
-    background-color: #f0f0f0;
+    background-color: #333; /* Dark gray background on hover */
     cursor: pointer;
 }
