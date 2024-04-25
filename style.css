@@ -19,6 +19,10 @@ body {
     color: #fff; /* White heading text */
     text-align: center;
 }
+.subject h4 {
+    color: #fff; /* White heading text */
+    text-align: center;
+}
 
 .activities {
     list-style-type: none;
