@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f8f8; /* Light gray background */
-    color: #333; /* Dark gray text */
+    background-color: #fff;
+    color: #000; /* Black text */
     margin: 0;
     padding: 0;
 }
@@ -17,13 +17,13 @@ body {
     max-width: 600px;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #333; /* Dark gray background */
-    color: #fff; /* White text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    background-color: #fff; /* White background */
 }
 
 .subject h1 {
     text-align: center;
+    color: #000; /* Black heading text */
 }
 
 .section {
@@ -31,9 +31,9 @@ body {
 }
 
 .section h2 {
-    color: #fff; /* White section heading text */
+    color: #000; /* Black section heading text */
     font-size: 24px;
-    border-bottom: 2px solid #fff; /* White underline */
+    border-bottom: 2px solid #000; /* Black underline */
     padding-bottom: 8px;
 }
 
@@ -44,7 +44,7 @@ body {
 
 .section ul li {
     padding: 12px 0;
-    border-bottom: 1px solid #666; /* Dark gray border between items */
+    border-bottom: 1px solid #ccc; /* Light gray border between items */
 }
 
 .section ul li:last-child {
@@ -52,7 +52,7 @@ body {
 }
 
 .section ul li a {
-    color: #fff; /* White link text */
+    color: #000; /* Black link text */
     text-decoration: none;
 }
 
