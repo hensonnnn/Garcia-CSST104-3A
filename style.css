@@ -25,7 +25,10 @@ body {
     text-align: center;
     color: #000; /* Black heading text */
 }
-
+.subject h4 {
+    text-align: center;
+    color: #000; /* Black heading text */
+}
 .section {
     margin-top: 20px;
 }
