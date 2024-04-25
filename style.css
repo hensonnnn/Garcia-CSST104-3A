@@ -1,34 +1,38 @@
+/* Reset default styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #DBDBDB;
+    background-color: #F9F9F9; /* Light gray background */
     color: #000; /* Black text */
     margin: 0;
     padding: 0;
 }
 
+/* Center container vertically and horizontally */
 .container {
-    display: inline-block;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
+/* Main subject container */
 .subject {
-    max-width: 600px;
+    width: 90%; /* Set width to 90% of the viewport width */
+    max-width: 800px; /* Maximum width of the subject container */
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    border-radius: 2px;
+    box-shadow: 0 100px 200px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
     background-color: #fff; /* White background */
 }
 
-.subject h1 {
-    text-align: center;
-    color: #000; /* Black heading text */
-}
+/* Heading styles */
+.subject h1,
 .subject h4 {
     text-align: center;
     color: #000; /* Black heading text */
 }
+
+/* Section headings */
 .section {
     margin-top: 20px;
 }
@@ -40,6 +44,7 @@ body {
     padding-bottom: 8px;
 }
 
+/* List styles */
 .section ul {
     list-style-type: none;
     padding: 0;
@@ -54,6 +59,7 @@ body {
     border-bottom: none;
 }
 
+/* Link styles */
 .section ul li a {
     color: #000; /* Black link text */
     text-decoration: none;
