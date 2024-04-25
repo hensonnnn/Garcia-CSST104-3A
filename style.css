@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #A7A7A7; 
-    color: #000; /* Black text */
+    background-color: #f8f8f8; /* Light gray background for the entire page */
+    color: #000; /* Black text color */
     margin: 0;
     padding: 0;
 }
@@ -12,10 +12,12 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    background-color: #333; /* Dark gray background for the subject container */
+    color: #fff; /* White text color for the subject container */
 }
 
 .subject h1 {
-    color: #333; /* Dark gray heading text */
+    color: #fff; /* White heading text color */
     text-align: center;
 }
 
@@ -24,7 +26,7 @@ body {
 }
 
 .section h2 {
-    color: #000; /* Black section heading text */
+    color: #fff; /* White section heading text color */
 }
 
 .section ul {
@@ -34,7 +36,7 @@ body {
 
 .section ul li {
     padding: 10px 0;
-    border-bottom: 1px solid #ccc; /* Light gray border */
+    border-bottom: 1px solid #666; /* Dark gray border between list items */
 }
 
 .section ul li:last-child {
